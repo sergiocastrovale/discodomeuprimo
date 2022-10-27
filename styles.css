@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 13px;
+  padding: 0;
+  margin: 1rem;
+}
+
+header {
+  margin: 1rem 0;
+}
+
+section {
+  --grid-layout-gap: 0.25rem;
+  --grid-column-count: 7;
+  --grid-item--min-width: 75px;
+  --gap-count: calc(var(--grid-column-count) - 1);
+  --total-gap-width: calc(var(--gap-count) * var(--grid-layout-gap));
+  --grid-item--max-width: calc((100% - var(--total-gap-width)) / var(--grid-column-count));
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr));
+  grid-gap: var(--grid-layout-gap);
+}
+
+section > div {
+  padding: 0.5rem;
+  background: #f8f8f8;
+  color: #40455e;
+  font-weight: 500;
+}
