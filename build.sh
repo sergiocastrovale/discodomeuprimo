@@ -19,6 +19,8 @@ cd $home && cat > $file << EOF
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Disco do meu primo</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
