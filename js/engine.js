@@ -11,6 +11,8 @@ const buildList = async (file = 'list.txt') => {
       const text = await response.text();
 
       items = text.trim().split("\n");
+
+      // Metadata is stored in the first line
       [count, timestamp] = items[0].split('|');
 
       header.innerHTML = `${count} artists listed. Last updated ${timestamp}.`;
@@ -38,25 +40,30 @@ const buildList = async (file = 'list.txt') => {
   }
 }
 
-  const getSections = (list = []) => {
-    list.shift();
+const getSections = (list = []) => {
+  // Remove first line (saved for metadata)
+  list.shift();
 
-    const data = Object.values(
-      list.reduce((acc, item) => {
-        let letter = item[0].toLocaleUpperCase();
+  // Build alphabetically-ordered lists
+  const data = Object.values(
+    list.reduce((acc, item) => {
+      let letter = item[0].toLocaleUpperCase();
+      const title = isNaN(letter) ? letter : '0-9';
 
-        const title = isNaN(letter) ? letter : '0-9';
-        if (!acc[title]) {
-          acc[title] = { title, items: [item] };
-        } else {
-          acc[title].items.push(item);
-        }
+      if (!acc[title]) {
+        acc[title] = { title, items: [item] };
+      } else {
+        acc[title].items.push(item);
+      }
 
-        return acc;
-      }, {})
-    );
+      return acc;
+    }, {})
+  );
 
-    data.push(data.shift());
+  // Push numeric names to last position
+  data.push(data.shift());
 
-    return data;
- }
+  return data;
+}
+
+buildList();
