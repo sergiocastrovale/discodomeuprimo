@@ -1,7 +1,8 @@
-355|2022-10-29 14:08:55
+392|2022-10-30 00:38:07
 65daysofstatic
 A Naifa
 A Perfect Circle
+ABBA
 Aerosmith
 Agalloch
 Agent Fresco
@@ -10,6 +11,7 @@ Al Di Meola
 Alcest
 Alice In Chains
 Allan Holdsworth
+alt-J
 Amy Winehouse
 Anathema
 Anciients
@@ -24,18 +26,23 @@ Aphex Twin
 Arcade Fire
 Arctic Monkeys
 Astor Piazzolla
+Atoms For Peace
 Audioslave
+Avenged Sevenfold
 Ayreon
 B.B. King
 BADBADNOTGOOD
 Beirut
+Bernardo Sassetti
 Beth Gibbons & Rustin Man
 Between The Buried And Me
 Bill Evans
 Billie Eilish
 Björk
 Black Rebel Motorcycle Club
+Black Sabbath
 Blasted Mechanism
+blink-182
 Blotted Science
 Blur
 Boards Of Canada
@@ -49,7 +56,7 @@ Brad Mehldau Trio
 Brad Mehldau
 Bright Eyes
 Bryan Adams
-CHVRCHES
+Budda Power Blues
 Caetano Veloso
 Caligula's Horse
 Cartoon Theory
@@ -68,34 +75,39 @@ Chick Corea
 Chico Buarque
 Chico da Tina
 Chris Cornell
-Cloudkicker
+CHVRCHES
 Clã
+Cloudkicker
 Coheed and Cambria
 Coldplay
 Coltrane
 Corelia
 Count Basie
+Creedence Clearwater Revival
 Cynic
-DJ Shadow
 Daft Punk
 Damien Rice
+Dave Matthews Band
 David Bowie
 David Bruno
 David Maxim Micic
 Death Cab For Cutie
 Deftones
 Depeche Mode
+Despe E Siga
 Destiny Potato
+dEUS
 Devin Townsend
 Diabo na Cruz
 Dimmu Borgir
 Dizzy Gillespie
+DJ Shadow
 Django Reinhardt
 Doismileoito
+Dônica
 Dream Theater
 Dua Lipa
 Duke Ellington
-Dônica
 Earthside
 Eels
 Elis Regina
@@ -105,11 +117,13 @@ Elton John
 Emerson, Lake & Palmer
 Ena Pá 2000
 Eric Clapton
-Ernesto Aurignac
+Evanescence
 Evergrey
 Extreme
 Fair to Midland
+Fall Out Boy
 Fatboy Slim
+Five Finger Death Punch
 Floating Points
 Florence + The Machine
 Foge Foge Bandido
@@ -124,10 +138,13 @@ Garbage
 Gazpacho
 Gentle Giant
 Ghost
+GNR
 Godspeed You! Black Emperor
 Gojira
 Gorillaz
+Grateful Dead
 Green Day
+Greta Van Fleet
 Guano Apes
 Guns N' Roses
 Guthrie Govan
@@ -142,7 +159,6 @@ Intervals
 Irmãos Catita
 Iron Maiden
 J.P. Simões
-JPEGMAFIA
 Jack Gardiner
 Jacob Collier
 Jakub Zytecki
@@ -153,6 +169,7 @@ Jason Richardson
 Jeff Buckley
 Jethro Tull
 Jimi Hendrix
+João Gilberto
 Joe Pass Quartet
 Joe Pass
 John Coltrane
@@ -164,10 +181,11 @@ John Petrucci
 John Scofield
 John Williams
 Jon Hopkins
+Jonny Greenwood
 Jordan Rudess
 Jorge Palma
 José González
-João Gilberto
+JPEGMAFIA
 Julian Bream
 Julien Baker
 Karnivool
@@ -180,6 +198,7 @@ King Crimson
 King Gizzard And The Lizard Wizard
 Koop
 Korn
+Krzysztof Penderecki
 Lady Gaga
 Leonard Cohen
 Leprous
@@ -192,28 +211,36 @@ Little Joy
 Lou Reed
 Louis Armstrong
 Lydian Collective
-MGMT
 Madredeus
 Magdalena Bay
 Magic Pie
 Mahavishnu Orchestra
 Mamonas Assassinas
 Manchester Orchestra
+Manic Street Preachers
+Mão Morta
 Marcelo Camelo
+Marco Minnemann
+Maria João & Mário Laginha
+Maria João
 Marilyn Manson
+Mário Laginha Trio
+Mário Laginha
 Massive Attack
 Mastodon
 Megadeth
 Megan Thee Stallion
 Metallica
+MGMT
 Michael Jackson
 Michel Petrucciani
 Miguel Araújo
 Miles Davis
 Moby
+Mr. Big
+Mumford & Sons
 Muse
 My Chemical Romance
-Mão Morta
 Narciso Yepes
 Native Construct
 Ne Obliviscaris
@@ -226,6 +253,8 @@ Opeth
 Ornatos Violeta
 Owane
 Paco de Lucía
+Panic! At The Disco
+Paramore
 Pat Metheny Trio
 Pat Metheny
 Paul Gilbert
@@ -263,20 +292,25 @@ Rings of Saturn
 Rishloo
 Rita Payés
 Riverside
-Rory Vagg
+Röyksopp
 Rui Veloso
 Russian Circles
-Röyksopp
 Salvador Sobral
 Samuel Úria
+Santana
+Scorpions
 Serdce
+Sérgio Godinho
 Shawn Lane
 Sigur Ros
 Sithu Aye
+Sitiados
 Skunk Anansie
 Slipknot
+Snarky Puppy
 Soen
 Sordid Pink
+Soul Coughing
 Soundgarden
 Spastic Ink
 Special Providence
@@ -293,8 +327,8 @@ Storm Corrosion
 Sufjan Stevens
 Supernada
 Supertramp
+Symphony X
 System of a Down
-Sérgio Godinho
 Talking Heads
 Temple Of The Dog
 Tenacious D
@@ -316,41 +350,44 @@ The Mars Volta
 The National
 The Ocean
 The Offspring
+The Police
 The Prodigy
 The Rolling Stones
 The Roots
 The Rosenberg Trio
 The Smashing Pumpkins
+The Smile
 The Velvet Underground
 The Verve
 The War On Drugs
 The White Stripes
+The Winery Dogs
 The xx
 Thelonious Monk
 Them Crooked Vultures
 Thievery Corporation
+Thom Yorke
 Thrice
 Tigran Hamasyan
 Tom Waits
 Tool
-Toots Thielemans
 Toto
 Travis
 Trivium
 Turnstile
-VOLA
+U2
+UHF
 Valter Lobo
 Van Halen
 Van Morrison
 Vangelis
 Veil Of Maya
 Vinícius de Moraes
+VOLA
 Weezer
 Wes Montgomery
 Widek
+Xutos & Pontapés
 Yamandu Costa
 Yes
 Yngwie Malmsteen
-alt-J
-blink-182
-dEUS
