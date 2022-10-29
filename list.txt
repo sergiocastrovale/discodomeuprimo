@@ -1,4 +1,4 @@
-345|2022-10-28 23:51:37
+351|2022-10-29 14:04:12
 65daysofstatic
 A Naifa
 A Perfect Circle
@@ -10,10 +10,10 @@ Al Di Meola
 Alcest
 Alice In Chains
 Allan Holdsworth
-alt-J
 Amy Winehouse
 Anathema
 Anciients
+And You Will Know Us By The Trail Of Dead
 Andrés Segovia
 Angra
 Animals as Leaders
@@ -26,6 +26,7 @@ Arctic Monkeys
 Astor Piazzolla
 Audioslave
 Ayreon
+B.B. King
 BADBADNOTGOOD
 Beirut
 Beth Gibbons & Rustin Man
@@ -35,7 +36,6 @@ Billie Eilish
 Björk
 Black Rebel Motorcycle Club
 Blasted Mechanism
-blink-182
 Blotted Science
 Blur
 Boards Of Canada
@@ -49,6 +49,7 @@ Brad Mehldau Trio
 Brad Mehldau
 Bright Eyes
 Bryan Adams
+CHVRCHES
 Caetano Veloso
 Caligula's Horse
 Cartoon Theory
@@ -67,15 +68,15 @@ Chick Corea
 Chico Buarque
 Chico da Tina
 Chris Cornell
-CHVRCHES
-Clã
 Cloudkicker
+Clã
 Coheed and Cambria
 Coldplay
 Coltrane
 Corelia
 Count Basie
 Cynic
+DJ Shadow
 Daft Punk
 Damien Rice
 David Bowie
@@ -85,20 +86,19 @@ Death Cab For Cutie
 Deftones
 Depeche Mode
 Destiny Potato
-dEUS
 Devin Townsend
 Diabo na Cruz
 Dimmu Borgir
 Dizzy Gillespie
-DJ Shadow
 Django Reinhardt
 Doismileoito
-Dônica
 Dream Theater
 Dua Lipa
 Duke Ellington
+Dônica
 Earthside
 Eels
+Elis Regina
 Ella Fitzgerald
 Elliott Smith
 Elton John
@@ -124,6 +124,7 @@ Garbage
 Gazpacho
 Gentle Giant
 Ghost
+Godspeed You! Black Emperor
 Gojira
 Gorillaz
 Green Day
@@ -141,6 +142,7 @@ Intervals
 Irmãos Catita
 Iron Maiden
 J.P. Simões
+JPEGMAFIA
 Jack Gardiner
 Jacob Collier
 Jakub Zytecki
@@ -151,7 +153,6 @@ Jason Richardson
 Jeff Buckley
 Jethro Tull
 Jimi Hendrix
-João Gilberto
 Joe Pass Quartet
 Joe Pass
 John Coltrane
@@ -165,7 +166,8 @@ John Williams
 Jon Hopkins
 Jordan Rudess
 Jorge Palma
-JPEGMAFIA
+José González
+João Gilberto
 Julian Bream
 Julien Baker
 Karnivool
@@ -196,7 +198,6 @@ Magic Pie
 Mahavishnu Orchestra
 Mamonas Assassinas
 Manchester Orchestra
-Mão Morta
 Marcelo Camelo
 Marilyn Manson
 Massive Attack
@@ -211,6 +212,7 @@ Miles Davis
 Moby
 Muse
 My Chemical Romance
+Mão Morta
 Narciso Yepes
 Native Construct
 Ne Obliviscaris
@@ -237,7 +239,6 @@ Placebo
 Plaid
 Plini
 Pluto
-Pol Batlle
 Polyphia
 Pomegranate Tiger
 Porcupine Tree
@@ -262,13 +263,12 @@ Rishloo
 Rita Payés
 Riverside
 Rory Vagg
-Röyksopp
 Rui Veloso
 Russian Circles
+Röyksopp
 Salvador Sobral
 Samuel Úria
 Serdce
-Sérgio Godinho
 Shawn Lane
 Sigur Ros
 Sithu Aye
@@ -292,6 +292,7 @@ Sufjan Stevens
 Supernada
 Supertramp
 System of a Down
+Sérgio Godinho
 Talking Heads
 Temple Of The Dog
 Tenacious D
@@ -324,23 +325,28 @@ The White Stripes
 The xx
 Thelonious Monk
 Them Crooked Vultures
+Thievery Corporation
 Thrice
 Tigran Hamasyan
 Tom Waits
 Tool
+Toots Thielemans
 Toto
 Trivium
 Turnstile
+VOLA
 Valter Lobo
 Van Halen
 Van Morrison
 Vangelis
 Veil Of Maya
 Vinícius de Moraes
-VOLA
 Weezer
 Wes Montgomery
 Widek
 Yamandu Costa
 Yes
 Yngwie Malmsteen
+alt-J
+blink-182
+dEUS
