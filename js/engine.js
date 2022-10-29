@@ -1,5 +1,5 @@
 const buildList = async (file = 'list.txt') => {
-  const header = document.querySelector('header');
+  const header = document.querySelector('header > .metadata');
   const section = document.querySelector('section');
   let count, timestamp;
   let items = [];

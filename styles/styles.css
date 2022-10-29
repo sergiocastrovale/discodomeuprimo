@@ -1,3 +1,8 @@
+:root {
+  --link-color: #516bc0;
+  --link-active-color: #2c4aac;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -9,7 +14,21 @@ body {
   background: #f8f8f8;
 }
 
+a, a:visited {
+  color: var(--link-color);
+  border-bottom: 1px dashed var(--link-color);
+  text-decoration: none;
+}
+
+a:active, a:hover, a:focus {
+  color: var(--link-active-color);
+  border-bottom: 1px solid var(--link-active-color);
+}
+
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin: 1rem;
 }
 
