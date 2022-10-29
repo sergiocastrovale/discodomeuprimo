@@ -1,4 +1,4 @@
-351|2022-10-29 14:04:12
+355|2022-10-29 14:08:55
 65daysofstatic
 A Naifa
 A Perfect Circle
@@ -192,6 +192,7 @@ Little Joy
 Lou Reed
 Louis Armstrong
 Lydian Collective
+MGMT
 Madredeus
 Magdalena Bay
 Magic Pie
@@ -282,6 +283,7 @@ Special Providence
 Squarepusher
 Steely Dan
 Stephen Taranto
+Stereophonics
 Steve Vai
 Steven Wilson
 Stevie Wonder
@@ -320,6 +322,7 @@ The Roots
 The Rosenberg Trio
 The Smashing Pumpkins
 The Velvet Underground
+The Verve
 The War On Drugs
 The White Stripes
 The xx
@@ -332,6 +335,7 @@ Tom Waits
 Tool
 Toots Thielemans
 Toto
+Travis
 Trivium
 Turnstile
 VOLA
