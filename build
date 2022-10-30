@@ -3,7 +3,7 @@ if [ -f .env ]; then
   export $(echo $(cat .env | sed 's/#.*//g'| xargs) | envsubst)
 
   home=$(pwd)
-  file="list.txt"
+  file="list"
   count=0
   timestamp=`date +"%Y-%m-%d %T"`
 

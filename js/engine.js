@@ -1,4 +1,4 @@
-const buildList = async (file = 'list.txt') => {
+const buildList = async (file = 'list') => {
   const header = document.querySelector('header > .metadata');
   const section = document.querySelector('section');
   let count, timestamp;
