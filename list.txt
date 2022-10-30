@@ -1,4 +1,4 @@
-392|2022-10-30 00:38:07
+458|2022-10-30 18:06:01
 65daysofstatic
 A Naifa
 A Perfect Circle
@@ -8,19 +8,24 @@ Agalloch
 Agent Fresco
 Air
 Al Di Meola
+Alabama Shakes
 Alcest
 Alice In Chains
 Allan Holdsworth
 alt-J
+Alvvays
 Amy Winehouse
 Anathema
 Anciients
 And You Will Know Us By The Trail Of Dead
+Anderson Paak
 Andrés Segovia
+Angel Olsen
 Angra
 Animals as Leaders
 Anomalie
 Antonio Carlos Jobim
+António Variações
 António Zambujo
 Aphex Twin
 Arcade Fire
@@ -32,10 +37,14 @@ Avenged Sevenfold
 Ayreon
 B.B. King
 BADBADNOTGOOD
+Banda do Mar
+Beach House
 Beirut
+Benjamin Clementine
 Bernardo Sassetti
 Beth Gibbons & Rustin Man
 Between The Buried And Me
+Big Thief
 Bill Evans
 Billie Eilish
 Björk
@@ -49,16 +58,20 @@ Boards Of Canada
 Bob Dylan
 Bobby McFerrin
 Boitezuleika
+Bon Iver
 Bon Jovi
 Bonobo
 Booka Shade
 Brad Mehldau Trio
 Brad Mehldau
 Bright Eyes
+Bruno Mars
 Bryan Adams
 Budda Power Blues
 Caetano Veloso
+Cage The Elephant
 Caligula's Horse
+Car Seat Headrest
 Cartoon Theory
 Caspian
 Casualties of Cool
@@ -74,8 +87,10 @@ Chick Corea Trio
 Chick Corea
 Chico Buarque
 Chico da Tina
+Childish Gambino
 Chris Cornell
 CHVRCHES
+Cigarettes After Sex
 Clã
 Cloudkicker
 Coheed and Cambria
@@ -91,12 +106,14 @@ Dave Matthews Band
 David Bowie
 David Bruno
 David Maxim Micic
+Dead Combo
 Death Cab For Cutie
 Deftones
 Depeche Mode
 Despe E Siga
 Destiny Potato
 dEUS
+Devendra Banhart
 Devin Townsend
 Diabo na Cruz
 Dimmu Borgir
@@ -128,16 +145,19 @@ Floating Points
 Florence + The Machine
 Foge Foge Bandido
 Foo Fighters
+Frank Ocean
 Frank Sinatra
 Frank Zappa
 Franz Ferdinand
 Frost_
+Future Islands
 G3
 Gal Costa
 Garbage
 Gazpacho
 Gentle Giant
 Ghost
+Glass Animals
 GNR
 Godspeed You! Black Emperor
 Gojira
@@ -147,11 +167,16 @@ Green Day
 Greta Van Fleet
 Guano Apes
 Guns N' Roses
+Gush
 Guthrie Govan
 Haken
+Helado Negro
 Herbie Hancock
 Hermeto Pascoal
 Hiromi
+Hozier
+Hyukoh
+IDLES
 Incubus
 Infected Mushroom
 Interpol
@@ -185,25 +210,36 @@ Jonny Greenwood
 Jordan Rudess
 Jorge Palma
 José González
+José Mário Branco
+José Pinhal
+Joy Division
 JPEGMAFIA
 Julian Bream
 Julien Baker
+Jungle
 Karnivool
 Katatonia
 Keith Jarrett Quartet
 Keith Jarrett Trio
 Keith Jarrett
+Kendrick Lamar
+Khruangbin
 Kiko Loureiro
 King Crimson
 King Gizzard And The Lizard Wizard
+King Krule
 Koop
 Korn
 Krzysztof Penderecki
+La Femme
 Lady Gaga
+Lana Del Rey
+LCD Soundsystem
 Leonard Cohen
 Leprous
 Levin Minnemann Rudess
 Limp Bizkit
+L'Impératrice
 Linda Martini
 Linkin Park
 Liquid Tension Experiment
@@ -211,12 +247,15 @@ Little Joy
 Lou Reed
 Louis Armstrong
 Lydian Collective
+Mac DeMarco
 Madredeus
 Magdalena Bay
 Magic Pie
 Mahavishnu Orchestra
+Mallu Magalhães
 Mamonas Assassinas
 Manchester Orchestra
+Manel Cruz
 Manic Street Preachers
 Mão Morta
 Marcelo Camelo
@@ -226,16 +265,20 @@ Maria João
 Marilyn Manson
 Mário Laginha Trio
 Mário Laginha
+Marlon Williams
 Massive Attack
 Mastodon
 Megadeth
 Megan Thee Stallion
+Melody's Echo Chamber
 Metallica
+Metronomy
 MGMT
 Michael Jackson
 Michel Petrucciani
 Miguel Araújo
 Miles Davis
+Mitski
 Moby
 Mr. Big
 Mumford & Sons
@@ -244,10 +287,16 @@ My Chemical Romance
 Narciso Yepes
 Native Construct
 Ne Obliviscaris
+Neutral Milk Hotel
 Nevermore
+New Order
+Nick Cave & The Bad Seeds
+Nick Cave
 Nine Inch Nails
 Nirvana
 No Doubt
+Norah Jones
+NxWorries
 Oasis
 Opeth
 Ornatos Violeta
@@ -255,6 +304,8 @@ Owane
 Paco de Lucía
 Panic! At The Disco
 Paramore
+Parcels
+Parquet Courts
 Pat Metheny Trio
 Pat Metheny
 Paul Gilbert
@@ -263,6 +314,7 @@ Paul Simon
 Pearl Jam
 Peixe _ avião
 Periphery
+Phoenix
 Pink Floyd
 Pixies
 Placebo
@@ -271,6 +323,7 @@ Plini
 Pluto
 Polyphia
 Pomegranate Tiger
+Pond
 Porcupine Tree
 Portishead
 Prince
@@ -292,6 +345,7 @@ Rings of Saturn
 Rishloo
 Rita Payés
 Riverside
+ROSALÍA
 Röyksopp
 Rui Veloso
 Russian Circles
@@ -299,6 +353,7 @@ Salvador Sobral
 Samuel Úria
 Santana
 Scorpions
+Sensible Soccers
 Serdce
 Sérgio Godinho
 Shawn Lane
@@ -307,6 +362,7 @@ Sithu Aye
 Sitiados
 Skunk Anansie
 Slipknot
+Slowdive
 Snarky Puppy
 Soen
 Sordid Pink
@@ -314,6 +370,7 @@ Soul Coughing
 Soundgarden
 Spastic Ink
 Special Providence
+Spiritualized
 Squarepusher
 Steely Dan
 Stephen Taranto
@@ -330,6 +387,7 @@ Supertramp
 Symphony X
 System of a Down
 Talking Heads
+Tame Impala
 Temple Of The Dog
 Tenacious D
 TesseracT
@@ -357,6 +415,8 @@ The Roots
 The Rosenberg Trio
 The Smashing Pumpkins
 The Smile
+The Smiths
+The Strokes
 The Velvet Underground
 The Verve
 The War On Drugs
@@ -368,15 +428,20 @@ Them Crooked Vultures
 Thievery Corporation
 Thom Yorke
 Thrice
+Thundercat
 Tigran Hamasyan
+Tim Bernardes
+Tom Misch
 Tom Waits
 Tool
 Toto
 Travis
 Trivium
 Turnstile
+Tyler, The Creator
 U2
 UHF
+Unknown Mortal Orchestra
 Valter Lobo
 Van Halen
 Van Morrison
@@ -391,3 +456,4 @@ Xutos & Pontapés
 Yamandu Costa
 Yes
 Yngwie Malmsteen
+Yo La Tengo
