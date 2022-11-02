@@ -34,7 +34,7 @@ if [ -f .env ]; then
     echo "*** Updated $file ($count artists)"
   fi
 
-  if [[ $1 = 'deploy' ]] ; then
+  if [[ $1 != 'no-deploy' ]] ; then
     git add . && \
     git add -u && \
     git commit -m "Update database ($count artists)" && \
