@@ -1,6 +1,7 @@
 const buildList = async (file = 'list') => {
-  const header = document.querySelector('header > .metadata');
+  const header = document.querySelector('.metadata');
   const section = document.querySelector('section');
+  const search = document.querySelector('input[type=search]');
   let count, timestamp;
   let items = [];
 
@@ -17,6 +18,7 @@ const buildList = async (file = 'list') => {
 
       header.innerHTML = `${count} artists listed. Last updated ${timestamp}.`;
 
+      // Build lists
       getSections(items).forEach(block => {
         const dl = document.createElement('dl');
         const dt = document.createElement('dt');
@@ -32,6 +34,9 @@ const buildList = async (file = 'list') => {
 
         section.appendChild(dl);
       });
+
+      // Build search
+      search.onkeyup = hideNonMatchingArtists;
     } else {
       throw new Error('Invalid response');
     }
@@ -64,6 +69,26 @@ const getSections = (list = []) => {
   data.push(data.shift());
 
   return data;
+}
+
+const hideNonMatchingArtists = () => {
+  const search = document.querySelector('input[type=search]');
+  const elements = document.querySelectorAll('dd');
+
+  elements.forEach(element => {
+    let content = element.innerHTML.trim();
+    const parent = element.parentNode;
+
+    // Hide non-matching
+    !content.includes(search.value)
+      ? element.classList.add('hidden')
+      : element.classList.remove('hidden');
+
+    // Hide entire list if no items
+    parent.querySelectorAll('.hidden').length + 1 === parent.children.length
+      ? parent.classList.add('hidden')
+      : parent.classList.remove('hidden');
+  });
 }
 
 buildList();

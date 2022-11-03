@@ -1,0 +1,15 @@
+{
+  "name": "discodomeuprimo.lol",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sergiocastrovale/discodomeuprimo.git",
+  "author": "Sérgio Castro <sergio.castro.vale@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:sass": "node-sass scss -o css",
+    "watch": "yarn build:sass && yarn build:sass -- -w"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

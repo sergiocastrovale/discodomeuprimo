@@ -1,0 +1,94 @@
+:root {
+  --white: #fff;
+  --light-grey: #f3f3f3;
+  --orange: #ff7373;
+  --link-color: #516bc0;
+  --link-active-color: #2c4aac;
+  --search-color: #383838;
+  --letter-block-size: 40px;
+  --min-column-width: 200px;
+  --font-family: 'Roboto', Arial, sans-serif;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 500; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-heavy);
+  font-size: 14px;
+  line-height: 1.25rem;
+  color: #40455e;
+  background: #f8f8f8; }
+
+a:visited {
+  color: var(--link-color);
+  border-bottom: 1px dashed var(--link-color);
+  text-decoration: none; }
+
+a:active, a:hover, a:focus {
+  color: var(--link-active-color);
+  border-bottom: 1px solid var(--link-active-color); }
+
+header {
+  margin: 0 0 1rem; }
+  header .search {
+    display: flex;
+    align-items: center;
+    background: var(--white);
+    padding: 0 1.25rem; }
+    header .search > input[type='search'] {
+      flex: 1;
+      margin: 0;
+      padding: 0;
+      border: none;
+      font-size: 1.75rem;
+      line-height: 4rem;
+      color: var(--search-color); }
+      header .search > input[type='search']::-webkit-search-cancel-button {
+        -webkit-appearance: none;
+        opacity: 0; }
+      header .search > input[type='search']::placeholder {
+        color: #969696;
+        font-weight: var(--font-weight-normal);
+        font-family: var(--font-family); }
+      header .search > input[type='search']:focus, header .search > input[type='search']:focus-visible {
+        outline: none;
+        border-color: var(--search-border-color-focus); }
+  header > .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem; }
+
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.25rem;
+  margin: 1rem; }
+  section > dl > dt {
+    display: inline-block;
+    width: var(--letter-block-size);
+    height: var(--letter-block-size);
+    line-height: var(--letter-block-size);
+    margin: 0 0 0.5rem;
+    font-size: 22px;
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    color: var(--white);
+    border-radius: 50%;
+    background: var(--orange);
+    text-align: center; }
+  section > dl > dd {
+    margin: 0.25rem 0;
+    background: var(--light-grey);
+    padding: 0.35rem 0.5rem;
+    border-radius: 4px; }
+
+@media screen and (min-width: 640px) {
+  section {
+    grid-template-columns: repeat(auto-fit, minmax(var(--min-column-width), 1fr)); } }
+
+.hidden {
+  display: none; }
