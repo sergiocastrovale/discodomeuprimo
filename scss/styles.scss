@@ -7,9 +7,9 @@
   --search-color: #383838;
   --letter-block-size: 40px;
   --min-column-width: 200px;
-  --font-family: 'Roboto', Arial, sans-serif;
-  --font-weight-light: 300;
-  --font-weight-normal: 400;
+  --font-family: 'Manrope', Arial, sans-serif;
+  --font-weight-light: 200;
+  --font-weight-normal: 300;
   --font-weight-bold: 500;
 }
 
@@ -45,14 +45,15 @@ header {
     align-items: center;
     background: var(--white);
     padding: 0 1.25rem;
+    border-bottom: 4px solid var(--light-grey);;
 
     > input[type='search'] {
       flex: 1;
       margin: 0;
       padding: 0;
       border: none;
-      font-size: 1.75rem;
-      line-height: 4rem;
+      font-size: 1.85rem;
+      line-height: 4.5rem;
       color: var(--search-color);
 
       &::-webkit-search-cancel-button {
@@ -78,6 +79,7 @@ header {
     align-items: center;
     justify-content: space-between;
     margin: 1rem;
+    line-height: 1.5rem;
   }
 }
 

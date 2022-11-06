@@ -1,5 +1,12 @@
+/**
+ * Main function of the project. Fetches the list assembled via
+ * bash script, calls a function that turns it into letter-indexed
+ * lists and builds the HTML accordingly. *
+ */
+
 const buildList = async (file = 'list') => {
-  const header = document.querySelector('.metadata');
+  const total = document.querySelector('.total > b');
+  const update = document.querySelector('.updated');
   const section = document.querySelector('section');
   const search = document.querySelector('input[type=search]');
   let count, timestamp;
@@ -16,7 +23,8 @@ const buildList = async (file = 'list') => {
       // Metadata is stored in the first line
       [count, timestamp] = items[0].split('|');
 
-      header.innerHTML = `${count} artists listed. Last updated ${timestamp}.`;
+      total.innerHTML = count;
+      update.innerHTML = `Last updated ${timestamp}`;
 
       // Build lists
       getSections(items).forEach(block => {
@@ -45,6 +53,11 @@ const buildList = async (file = 'list') => {
   }
 }
 
+/**
+ * Manipulates the raw list and turns it into an object
+ * with arrays of irst-letter indexed objects.
+ */
+
 const getSections = (list = []) => {
   // Remove first line (saved for metadata)
   list.shift();
@@ -71,7 +84,21 @@ const getSections = (list = []) => {
   return data;
 }
 
+/**
+ * "Reverse" search. Applies a 'hidden' class to all elements that do not
+ * match the query given by the search input.
+ *
+ * If not a single artist starting with a specific letter is found, the column
+ * itself is hidden to optimize space.
+ *
+ * This method also updates the counters inside the header as new results are
+ * found while searching.
+ */
+
 const hideNonMatchingArtists = () => {
+  let total = 0;
+  let nonMatching = 0;
+  const result = document.querySelector('.total > b');
   const search = document.querySelector('input[type=search]');
   const elements = document.querySelectorAll('dd');
 
@@ -80,15 +107,25 @@ const hideNonMatchingArtists = () => {
     const parent = element.parentNode;
 
     // Hide non-matching
-    !content.includes(search.value)
-      ? element.classList.add('hidden')
-      : element.classList.remove('hidden');
+    if (!content.toLowerCase().includes(search.value.toLowerCase())) {
+      element.classList.add('hidden');
+      nonMatching++;
+    } else {
+      element.classList.remove('hidden');
+    }
 
     // Hide entire list if no items
     parent.querySelectorAll('.hidden').length + 1 === parent.children.length
       ? parent.classList.add('hidden')
       : parent.classList.remove('hidden');
+
+    total++;
   });
+
+  // Update the counter
+  result.innerHTML = nonMatching
+    ? `${total-nonMatching}/${total}`
+    : result.innerHTML = total
 }
 
 buildList();
