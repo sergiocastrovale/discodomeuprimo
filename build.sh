@@ -8,16 +8,11 @@ if [ -f .env ]; then
   timestamp=`date +"%Y-%m-%d %T"`
 
   if [[ $1 = 'expanded' ]] ; then
-    # TBD
-    walk() {
-      local indent="${2:-0}"
-      printf "%*s%s\n" $indent '' "$1"
-      for entry in "$1"/*; do
-        [[ -d "$entry" ]] && walk "$entry" $((indent+2))
-      done
-    }
-
-    walk $BASE_PATH;
+    # WIP
+    echo "Building the list with albums. This will take a while..."
+    tree $BASE_PATH -idf --charset=ISO8859-1 > list_expanded
+    mv list_expanded $home
+    # | sed 's/F:\/mp3\/mainstream\///'
   else
     cd $BASE_PATH
 
