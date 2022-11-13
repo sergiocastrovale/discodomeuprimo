@@ -4,7 +4,7 @@
  * lists and builds the HTML accordingly. *
  */
 
-const buildList = async (file = 'list.txt') => {
+const buildList = async (file = 'list_expanded.txt') => {
   const total = document.querySelector('.total > b');
   const update = document.querySelector('.updated');
   const section = document.querySelector('section');
@@ -26,22 +26,30 @@ const buildList = async (file = 'list.txt') => {
       total.innerHTML = count;
       update.innerHTML = `Last updated ${timestamp}`;
 
+      getArtistsAndAlbums(items)
+
       // Build lists
-      getSections(items).forEach(block => {
-        const dl = document.createElement('dl');
-        const dt = document.createElement('dt');
+      // getSections(items).forEach(block => {
+      //   const dl = document.createElement('dl');
+      //   const dt = document.createElement('dt');
 
-        dt.innerHTML = block.title;
-        dl.appendChild(dt);
+      //   dt.innerHTML = block.title;
+      //   dl.appendChild(dt);
 
-        block.items.forEach(item => {
-          const dd = document.createElement('dd');
-          dd.innerHTML = item;
-          dl.appendChild(dd);
-        });
+      //   block.items.forEach(item => {
+      //     const dd = document.createElement('dd');
+      //     const span = document.createElement('span');
 
-        section.appendChild(dl);
-      });
+      //     span.innerHTML = item;
+
+      //     dd.appendChild(span);
+      //     //dd.appendChild(createAlbumsList(item));
+
+      //     dl.appendChild(dd);
+      //   });
+
+      //   section.appendChild(dl);
+      // });
 
       // Build search
       search.onkeyup = hideNonMatchingArtists;
@@ -51,6 +59,39 @@ const buildList = async (file = 'list.txt') => {
   } catch (err) {
     console.error(`Unable to fetch ${file}: ${err}`);
   }
+}
+
+const createAlbumsList = (item) => {
+  const albums = document.createElement('div')
+  albums.classList.add('hidden', 'albums');
+}
+
+
+const getArtistsAndAlbums = (list = []) => {
+  const data = {};
+  let currentArtist = '';
+
+  // Remove first line (saved for metadata)
+  list.shift();
+
+  list.forEach(row => {
+    // If only one / is found in the current row, we are looking at an artist's name.
+    // Otherwise, we're looking at their catalogue.
+    const level = (row.match(/\//g)||[]).length;
+
+    if (level === 1) {
+      currentArtist = row.substring(1);
+      data[currentArtist] = [];
+    } else if (currentArtist && row.includes(currentArtist)) {
+      data[currentArtist].push(row.substring(1).replace(currentArtist, '').substring(1));
+    }
+  });
+
+  console.log('data :>> ', data);
+}
+
+const sortObjectByKeys = (o) => {
+  return Object.keys(o).sort().reduce((r, k) => (r[k] = o[k], r), {});
 }
 
 /**
