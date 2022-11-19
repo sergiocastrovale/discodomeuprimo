@@ -4,7 +4,7 @@
  * lists and builds the HTML accordingly. *
  */
 
-const buildList = async (file = 'list') => {
+const buildList = async (file = 'list.txt') => {
   const total = document.querySelector('.total > b');
   const update = document.querySelector('.updated');
   const section = document.querySelector('section');
