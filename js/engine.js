@@ -4,8 +4,9 @@
  * lists and builds the HTML accordingly. *
  */
 
-const buildList = async (file = 'list_expanded.txt') => {
-  const total = document.querySelector('.total > b');
+const buildList = async (file = 'list.txt') => {
+  const totalArtists = document.querySelector('.total > b:nth-child(1)');
+  const totalCatalogue = document.querySelector('.total > b:nth-child(2)');
   const update = document.querySelector('.updated');
   const section = document.querySelector('section');
   const search = document.querySelector('input[type=search]');
@@ -23,33 +24,35 @@ const buildList = async (file = 'list_expanded.txt') => {
       // Metadata is stored in the first line
       [count, timestamp] = items[0].split('|');
 
-      total.innerHTML = count;
+      const list = sortList(getArtistsAndAlbums(items));
+      const sum = catalogueTotal(list);
+
+      totalArtists.innerHTML = count
+      totalCatalogue.innerHTML = sum;
       update.innerHTML = `Last updated ${timestamp}`;
 
-      getArtistsAndAlbums(items)
-
       // Build lists
-      // getSections(items).forEach(block => {
-      //   const dl = document.createElement('dl');
-      //   const dt = document.createElement('dt');
+      getSections(list).forEach(block => {
+        const dl = document.createElement('dl');
+        const dt = document.createElement('dt');
 
-      //   dt.innerHTML = block.title;
-      //   dl.appendChild(dt);
+        dt.innerHTML = block.title;
+        dl.appendChild(dt);
 
-      //   block.items.forEach(item => {
-      //     const dd = document.createElement('dd');
-      //     const span = document.createElement('span');
+        block.items.forEach(item => {
+          const dd = document.createElement('dd');
+          const span = document.createElement('span');
 
-      //     span.innerHTML = item;
+          span.innerHTML = `${item.name} (${item.total})`;
 
-      //     dd.appendChild(span);
-      //     //dd.appendChild(createAlbumsList(item));
+          dd.appendChild(span);
+          //dd.appendChild(createAlbumsList(item));
 
-      //     dl.appendChild(dd);
-      //   });
+          dl.appendChild(dd);
+        });
 
-      //   section.appendChild(dl);
-      // });
+        section.appendChild(dl);
+      });
 
       // Build search
       search.onkeyup = hideNonMatchingArtists;
@@ -68,7 +71,7 @@ const createAlbumsList = (item) => {
 
 
 const getArtistsAndAlbums = (list = []) => {
-  const data = {};
+  const data = [];
   let currentArtist = '';
 
   // Remove first line (saved for metadata)
@@ -76,22 +79,34 @@ const getArtistsAndAlbums = (list = []) => {
 
   list.forEach(row => {
     // If only one / is found in the current row, we are looking at an artist's name.
-    // Otherwise, we're looking at their catalogue.
+    // Otherwise, we're looking at their catalogue
     const level = (row.match(/\//g)||[]).length;
 
     if (level === 1) {
       currentArtist = row.substring(1);
-      data[currentArtist] = [];
+
+      data.push({
+        name: currentArtist,
+        catalogue: [],
+        total: 0
+      });
     } else if (currentArtist && row.includes(currentArtist)) {
-      data[currentArtist].push(row.substring(1).replace(currentArtist, '').substring(1));
+      const match = data.find(a => a.name === currentArtist);
+
+      if (match) {
+        // Push each album into the artist's catalogue but remove the path before the
+        // album name ("/Air/1998 - Moon Safari" becomes "1998 - Moon Safari")
+        match.catalogue.push(row.substring(1).replace(currentArtist, '').substring(1));
+        match.total++;
+      }
     }
   });
 
-  console.log('data :>> ', data);
+  return data;
 }
 
-const sortObjectByKeys = (o) => {
-  return Object.keys(o).sort().reduce((r, k) => (r[k] = o[k], r), {});
+const sortList = (list) => {
+  return list.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
 }
 
 /**
@@ -100,13 +115,10 @@ const sortObjectByKeys = (o) => {
  */
 
 const getSections = (list = []) => {
-  // Remove first line (saved for metadata)
-  list.shift();
-
-  // Build alphabetically-ordered lists
+  // Build independent alphabetically-ordered lists
   const data = Object.values(
     list.reduce((acc, item) => {
-      let letter = item[0].toLocaleUpperCase();
+      let letter = item.name[0].toLocaleUpperCase();
       const title = isNaN(letter) ? letter : '0-9';
 
       if (!acc[title]) {
@@ -168,5 +180,7 @@ const hideNonMatchingArtists = () => {
     ? `${total-nonMatching}/${total}`
     : result.innerHTML = total
 }
+
+const catalogueTotal = (list) => list.reduce((acc, i) => acc + i.total, 0);
 
 buildList();
