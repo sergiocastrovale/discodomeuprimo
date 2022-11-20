@@ -2,6 +2,10 @@
 
 Source code for https://discodomeuprimo.lol, a comprehensive and heavily biased list of music artists and bands worth knowing about.
 
+## Why didn't you use a front-end framework?
+
+I've been a long time Vue and Nuxt fan, but I wanted to use this small project as an excuse to go back to the barebone roots of Javascript and craft everything from scratch. The _only_ thing I didn't resist using was SCSS with `node-sass`.
+
 # How to use
 
 1. Set the BASE_PATH in your `.env` file. This should be an UNIX-formatted path, e.g. `/d/stuff/albums`
