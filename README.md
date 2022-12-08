@@ -16,7 +16,7 @@ I've been a long time Vue and Nuxt fan, but I wanted to use this small project a
 # How to use
 
 1. Set the BASE_PATH in your `.env` file. This should be an UNIX-formatted path, e.g. `/d/stuff/albums`
-2. In the project directory, run `./build`. Use `./build no-deploy` if you want to skip committing and pushing the changes.
+2. In the project directory, run `bash build.sh`. Use `bash build.sh no-deploy` if you want to skip committing and pushing the changes.
 3. A new `list` file will be created, containing the contents of your `BASE_PATH` folder.
 4. `index.html` will use these contents and format them in a pretty way 🙂
 
