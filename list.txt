@@ -1,4 +1,4 @@
-676|2022-11-19 22:10:46
+720|2022-12-08 00:21:29
 65daysofstatic
 A Naifa
 A Perfect Circle
@@ -10,12 +10,17 @@ Agent Fresco
 Air
 Al Di Meola
 Alabama Shakes
+Alan Parsons
+Alcatrazz
 Alcest
 Alfa Mist
 Alice Cooper
 Alice In Chains
 Allan Holdsworth
+Altamont
+alt-J
 Alvvays
+Ambeon
 American Football
 Amorphis
 Amy Winehouse
@@ -23,8 +28,9 @@ Anathema
 Anciients
 And You Will Know Us By The Trail Of Dead
 Anderson Paak
-Andrew Bird
+Andre Previn
 Andrés Segovia
+Andrew Bird
 Anekdoten
 Angel Olsen
 Angel Vivaldi
@@ -37,10 +43,12 @@ Antonio Carlos Jobim
 António Variações
 António Zambujo
 Aphex Twin
+Apparat
 Arcade Fire
 Arch Echo
 Arch Enemy
 Arctic Monkeys
+Arjen Anthony Lucassen
 Astor Piazzolla
 At the Gates
 Atoms For Peace
@@ -50,8 +58,8 @@ Avenged Sevenfold
 Ayreon
 B.B. King
 BABYMETAL
-BADBADNOTGOOD
 Backstreet Boys
+BADBADNOTGOOD
 Banda do Mar
 Bastille
 Battles
@@ -61,8 +69,9 @@ Bee Gees
 Behemoth
 Beirut
 Belle and Sebastian
-Ben Folds Five
+Ben Folds
 Benjamin Clementine
+Benny Carter
 Bernardo Sassetti
 Beth Gibbons & Rustin Man
 Between The Buried And Me
@@ -71,11 +80,13 @@ Bill Evans
 Billie Eilish
 Billie Holiday
 Billy Joel
+Bireli Lagrene
 Björk
 Black Rebel Motorcycle Club
 Black Sabbath
 Blackfield
 Blasted Mechanism
+blink-182
 Bloc Party
 Blotted Science
 Blur
@@ -88,13 +99,12 @@ Bon Jovi
 Bonobo
 Booka Shade
 Boston
-Brad Mehldau Trio
 Brad Mehldau
+Brian May
 Bright Eyes
 Bruno Mars
 Bryan Adams
 Budda Power Blues
-CHVRCHES
 Caetano Veloso
 Cage The Elephant
 Caligula's Horse
@@ -103,10 +113,12 @@ Capitão Fausto
 Car Bomb
 Car Seat Headrest
 Caribou
+Carole King (1970-2017)
 Cartoon Theory
 Caspian
 Casualties of Cool
 Cavalheiro
+Chaos A.D
 Charles Mingus
 Charlie Griffiths
 Charlie Parker
@@ -114,10 +126,6 @@ Chet Baker Quartet
 Chet Baker
 Chet Faker
 Chicago
-Chick Corea & Hiromi
-Chick Corea Akoustic Band
-Chick Corea Elektric Band
-Chick Corea Trio
 Chick Corea
 Chico Buarque
 Chico da Tina
@@ -125,12 +133,13 @@ Childish Gambino
 Children Of Bodom
 Chon
 Chris Cornell
+CHVRCHES
 Cigarettes After Sex
 Circus Maximus
+Clã
 Clark
 Closure in Moscow
 Cloudkicker
-Clã
 Cocteau Twins
 Coheed and Cambria
 Coldplay
@@ -141,12 +150,12 @@ Cory Wong
 Count Basie
 Counter-World Experience
 Counting Crows
+Cradle Of Filth
 Creedence Clearwater Revival
 Crosby, Stills, Nash & Young
 Crystal Castles
 Cuarteto Romero
 Cynic
-DJ Shadow
 Daft Punk
 Damien Rice
 Dark Tranquillity
@@ -163,6 +172,7 @@ Deftones
 Depeche Mode
 Despe E Siga
 Destiny Potato
+dEUS
 Devendra Banhart
 Devin Townsend Project
 Devin Townsend
@@ -171,13 +181,16 @@ Dimmu Borgir
 Dinosaur Jr
 Distorted Harmony
 Dizzy Gillespie
+DJ Shadow
 Django Reinhardt
 Doismileoito
 Don Caballero
+Dônica
 Dream Theater
 Dua Lipa
 Duke Ellington
-Dônica
+Duke Of Harringay
+E
 Earthside
 Eels
 Elis Regina
@@ -202,10 +215,11 @@ Fallujah
 Fatboy Slim
 Fear Factory
 Fiona Apple
+Fish
 Five Finger Death Punch
 Fleet Foxes
-FloFilz
 Floating Points
+FloFilz
 Florence + The Machine
 Foals
 Foge Foge Bandido
@@ -220,18 +234,19 @@ Frost_
 Fugazi
 Future Islands
 G3
-GNR
 Gal Costa
 Garbage
 Gary Clark Jr
+Gary Peacock
 Gazpacho
 Gentle Giant
 George Gershwin
 Ghost
 Glass Animals
-GoGo Penguin
+GNR
 Godsmack
 Godspeed You! Black Emperor
+GoGo Penguin
 Gojira
 Gold Panda
 Gorillaz
@@ -250,6 +265,7 @@ Guthrie Govan
 Haken
 Hammock
 Helado Negro
+Herb Ellis
 Herbie Hancock
 Hermeto Pascoal
 Hiatus Kaiyote
@@ -259,22 +275,23 @@ Hozier
 Hyukoh
 I Built the Sky
 IDLES
-IQ
+Igorrr
 Imogen Heap
 Incubus
 Infected Mushroom
 Interpol
 Intervals
+IQ
 Irmãos Catita
 Iron Maiden
 J.P. Simões
-JPEGMAFIA
 Jack Gardiner
 Jack Johnson
 Jack White
 Jaco Pastorius
 Jacob Collier
 Jakub Zytecki
+James Taylor (1967-2015)
 James Taylor
 Jamiroquai
 Jane's Addiction
@@ -286,6 +303,7 @@ Jeff Loomis
 Jethro Tull
 Jimi Hendrix
 Jinjer
+João Gilberto
 Joe Pass Quartet
 Joe Pass
 Joe Satriani
@@ -309,8 +327,9 @@ José Mário Branco
 José Pinhal
 Journey
 Joy Division
-João Gilberto
+JPEGMAFIA
 Julian Bream
+Julian ''Cannonball'' Adderley
 Julian Casablancas
 Julien Baker
 Jungle
@@ -318,13 +337,12 @@ Justice
 Kaiser Chiefs
 Kandia
 Kansas
+Karma
 Karnivool
 Kasabian
 Katatonia
 Kate Bush
 Kazuhito Yamashita
-Keith Jarrett Quartet
-Keith Jarrett Trio
 Keith Jarrett
 Kendrick Lamar
 Khruangbin
@@ -338,21 +356,23 @@ Koji Kondo
 Koop
 Korn
 Krzysztof Penderecki
-L'Impératrice
-LCD Soundsystem
 La Femme
 Lady Gaga
 Lamb Of God
 Lana Del Rey
+Lars Gullin
+LCD Soundsystem
 Lenny Kravitz
 Leonard Cohen
 Leprous
 Levin Minnemann Rudess
 Liam Gallagher
 Limp Bizkit
+L'Impératrice
 Linda Martini
 Linkin Park
 Liquid Tension Experiment
+LITE
 Little Joy
 Lorde
 Los Hermanos
@@ -363,7 +383,6 @@ Lunatic Soul
 Lydian Collective
 Lykke Li
 M83
-MGMT
 Mac DeMarco
 Madredeus
 Magdalena Bay
@@ -373,29 +392,39 @@ Mallu Magalhães
 Mamonas Assassinas
 Manchester Orchestra
 Manel Cruz
+Måneskin
 Manic Street Preachers
 Manuel Barrueco
+Mão Morta
 Marcelo Camelo
 Marco Minnemann
 Maria João & Mário Laginha
 Maria João
+Marillion
 Marilyn Manson
+Mário Laginha Trio
+Mário Laginha
+Mark Oliver Everett
 Marlon Williams
 Massive Attack
 Mastodon
 Mazzy Star
 Megadeth
 Melody's Echo Chamber
+Melvins
 Meshuggah
 Mestís
 Metallica
 Metronomy
+MGMT
 Michael Jackson
 Michel Petrucciani
 Miguel Araújo
 Miles Davis
-Miloš Karadaglić
+Milt Jackson
 Moby
+Moderat
+Modeselektor
 Modest Mouse
 Mogwai
 Momus
@@ -405,15 +434,12 @@ Morrissey
 Motörhead
 Mouse On The Keys
 Mr. Big
+Muddy Waters
+Múm
 Mumford & Sons
 Muse
 My Chemical Romance
 Myrath
-Mário Laginha Trio
-Mário Laginha
-Mão Morta
-Måneskin
-Múm
 Napalm Death
 Narciso Yepes
 Native Construct
@@ -431,25 +457,30 @@ Nirvana
 No Doubt
 Nobuo Uematsu
 Norah Jones
+Nothing But Thieves
 Nouvelle Vague
 Oasis
 Of Monsters and Men
 Opeth
 Ornatos Violeta
 Os Mutantes
+Oscar Peterson
 Others by No One
 Otis Redding
 Owane
-PJ Harvey
 Paco de Lucía
 Panic! At The Disco
 Pantera
 Panzerballett
+Paradise Lost
 Paramore
 Parcels
 Parquet Courts
+Pat Metheny Group
 Pat Metheny Trio
 Pat Metheny
+Patti Smith
+Paul Bley
 Paul Gilbert
 Paul McCartney
 Paul Simon
@@ -461,6 +492,7 @@ Periphery
 Phoenix
 Pink Floyd
 Pixies
+PJ Harvey
 Placebo
 Plaid
 Plini
@@ -481,11 +513,12 @@ Queen
 Queens Of The Stone Age
 Queensrÿche
 R.E.M
-ROSALÍA
+Racer X
 Radiohead
 Rage Against The Machine
 Rammstein
 Ramones
+Red Garland
 Red Hot Chili Peppers
 Red House Painters
 Regina Spektor
@@ -500,13 +533,14 @@ Rivers Of Nihil
 Riverside
 Rodrigo Amarante
 Roger Waters
+ROSALÍA
+Ross Jennings
 Roy Hargrove
 Royal Blood
+Röyksopp
 Rui Veloso
 Rush
 Russian Circles
-Röyksopp
-Sabaton
 Salvador Sobral
 Samuel Úria
 Santana
@@ -514,15 +548,19 @@ Scorpions
 Sensible Soccers
 Sepultura
 Serdce
+Sérgio Godinho
 Sex Pistols
+Shakti
 Shawn Lane
 Shellac
-Sigur Ros
+Shobaleader One
+Sigur Rós
 Silence 4
 Simon & Garfunkel
 Sithu Aye
 Sitiados
 Skunk Anansie
+Slash
 Slayer
 Slipknot
 Slowdive
@@ -538,7 +576,10 @@ Spice Girls
 Spiritualized
 Spock's Beard
 Squarepusher
+Stanley Clarke
+Star One
 Steely Dan
+Stephane Grappelli
 Stephen Taranto
 Stereophonics
 Steve Vai
@@ -556,17 +597,18 @@ Supertramp
 Swans
 Symphony X
 System of a Down
-Sérgio Godinho
 Talking Heads
 Tame Impala
 Taylor Swift
 Temple Of The Dog
 Tenacious D
 Tera Melos
+Teresa Salgueiro
 TesseracT
 Testament
 Textures
 Thank You Scientist
+The Alan Parsons Project
 The Algorithm
 The Aristocrats
 The Bad Plus
@@ -583,6 +625,7 @@ The Devin Townsend Band
 The Dillinger Escape Plan
 The Doors
 The Flaming Lips
+The Gentle Storm
 The Helix Nebula
 The Hives
 The Human Abstract
@@ -629,10 +672,13 @@ Tigran Hamasyan
 Tim Bernardes
 Tim Davies
 Toehider
+Tom Jenkinson
 Tom Misch
 Tom Waits
 Tool
+Toots Thielemans
 Toto
+Transatlantic
 Travis
 Trentemøller
 Trivium
@@ -644,7 +690,6 @@ U2
 UHF
 Unknown Mortal Orchestra
 Unprocessed
-VOLA
 Vader
 Valter Lobo
 Vampire Weekend
@@ -655,6 +700,7 @@ Veil Of Maya
 Victor Wooten
 Vinícius de Moraes
 Vitalism
+VOLA
 Vulfpeck
 Wayne Shorter
 Weather Report
@@ -672,6 +718,4 @@ Yeah Yeah Yeahs
 Yes
 Yngwie Malmsteen
 Yo La Tengo
-alt-J
-blink-182
-dEUS
+Zwan
