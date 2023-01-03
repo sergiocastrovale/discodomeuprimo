@@ -19,13 +19,13 @@ if [ -f .env ]; then
 
   echo "*** Updated list ($count artists)"
 
-  # if [[ $1 != 'no-deploy' ]] ; then
-  #   git add . && \
-  #   git add -u && \
-  #   git commit -m "Update database ($count artists)" && \
-  #   git push origin HEAD
-  #   echo "*** Deployed new version to Github."
-  # fi
+  if [[ $1 != 'no-deploy' ]] ; then
+    git add . && \
+    git add -u && \
+    git commit -m "Update database ($count artists)" && \
+    git push origin HEAD
+    echo "*** Deployed new version to Github."
+  fi
 
 else
   echo "You need to set the BASE_PATH in .env to build the list."
