@@ -1,3 +1,5 @@
+# This project has been abandoned in favor of https://github.com/sergiocastrovale/dmp (Nuxt 3, Firestore, Typescript).
+
 # About
 
 Source code for https://discodomeuprimo.lol, a comprehensive and heavily biased list of music artists and bands worth knowing about.
