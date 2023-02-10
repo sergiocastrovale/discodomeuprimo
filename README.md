@@ -1,4 +1,4 @@
-# This project has been abandoned in favor of https://github.com/sergiocastrovale/dmp (Nuxt 3, Firestore, Typescript).
+** ⚠ This project has been abandoned in favor of https://github.com/sergiocastrovale/dmp (Nuxt 3, Firestore, Typescript)**
 
 # About
 
